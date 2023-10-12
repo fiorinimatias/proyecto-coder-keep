@@ -1,0 +1,15 @@
+@import "./utilities/variables";
+
+@import "./base/reset";
+@import "./base/typo";
+
+@import "./components/header";
+@import "./components/footer";
+
+@import "./views/home";
+@import "./views/nosotros";
+@import "./views/contacto";
+@import "./views/portfolio";
+@import "./views/servicios";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');

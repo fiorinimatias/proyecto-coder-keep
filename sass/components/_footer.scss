@@ -1,0 +1,29 @@
+footer {
+    font-family: $montserrat;
+    background-color: $color-secundary;
+    color: $color-principal;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    cursor: default;
+    font-size: $font-principal;
+    align-items: center;
+    padding-top: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+
+    p {
+        font-size: 100%;
+    }
+}
+
+.footer-pages {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+
+    p {
+        font-size: 100%;
+    }
+}

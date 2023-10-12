@@ -1,0 +1,16 @@
+.row {
+    padding: 3rem 15rem;
+
+    .w-100:hover {
+        cursor: pointer;
+        filter: grayscale(1) blur(2px);
+        transition: .3s ease-in-out;
+    }
+}
+
+.text-portfolio {
+    color: $color-text;
+    font-family: "Bebas";
+    cursor: default;
+    visibility: hidden;
+}

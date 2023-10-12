@@ -1,0 +1,64 @@
+.banner {
+    background-color: black;
+    width: 100%;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+
+    p {
+        margin: 2rem 4rem 2rem 4rem;
+        font-family: $bebas;
+        text-align: center;
+        -webkit-text-stroke: .06rem yellow;
+        color: transparent;
+        cursor: default;
+        padding: 18px;
+    }
+
+    p:hover {
+        transform: scale(1.03);
+        transition: 1.5s;
+    }
+}
+
+.card {
+    background-color: $color-principal;
+    margin: $spacing-medium;
+    padding: $spacing-small;
+    width: 20rem;
+
+    &.card:hover {
+        cursor: pointer;
+        filter: grayscale(1);
+    }
+}
+
+.boton {
+    height: 6rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    font-family: $bebas;
+    height: 30px;
+    width: 80px;
+    font-size: $font-principal;
+    background-color: transparent;
+    color: $color-secundary;
+    border: $color-secundary;
+    border-style: solid;
+    cursor: pointer;
+    border-radius: 0;
+
+    &.btn:hover {
+        background: $color-secundary;
+        color: $color-principal;
+        border: $color-secundary;
+        border-style: solid;
+        cursor: pointer;
+    }
+}

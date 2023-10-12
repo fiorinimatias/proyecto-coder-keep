@@ -1,0 +1,28 @@
+.accordion {
+    width: 90%;
+    padding-top: $spacing-large;
+    padding-bottom: 8rem;
+    padding-left: 10%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    --bs-accordion-active-bg: #000000;
+    --bs-accordion-active-color: #F4F406;
+    --bs-accordion-border-radius: 0px;
+    --bs-accordion-btn-focus-border-color: #F4F406;
+    --bs-accordion-btn-focus-box-shadow: #F4F406;
+}
+
+.accordion-button {
+    font-family: $bebas;
+    color: $color-secundary;
+    background-color: $color-principal;
+    font-size: $font-title;
+}
+
+.accordion-body {
+    font-family: $montserrat;
+    font-size: $font-text;
+    text-align: center;
+    background-color: $color-principal;
+    color: $color-text;
+}

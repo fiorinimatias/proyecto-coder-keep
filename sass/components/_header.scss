@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+
+    .logo {
+        height: 70px;
+        width: auto;
+        cursor: pointer;
+        transition: all 0.3s;
+        display: flex;
+        align-items: center;
+    }
+
+    & .logo:hover {
+        transform: scale(.9);
+    }
+
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-nav {
+    text-align: center;
+
+    a {
+        color: $color-text;
+        font-family: $bebas;
+        font-size: $font-title;
+    }
+
+    & a:hover {
+        transform: scale(1.2);
+        text-decoration: overline;
+        color: $color-secundary;
+    }
+}
+
+.navbar-toggler {
+    background-color: $color-text;
+    font-size: .7rem;
+}

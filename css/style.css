@@ -11,7 +11,6 @@ html {
 
 main {
   background-image: url(/images/fondo.png);
-  height: 100vH;
   background-repeat: repeat;
 }
 
@@ -260,16 +259,45 @@ footer p {
 .row {
   padding: 3rem 15rem;
 }
-.row .w-100:hover {
-  cursor: pointer;
-  filter: grayscale(1) blur(2px);
-  transition: 0.3s ease-in-out;
+
+.container {
+  width: 220px;
+  height: 220px;
+  position: relative;
+  overflow: hidden;
+}
+.container img {
+  width: 100%;
+  transition: all 0.5s;
 }
 
-.text-portfolio {
+.content {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: -100%;
+  left: 0;
+  height: 100%;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.content h3 {
+  font-family: "Bebas Neue", sans-serif;
+  color: #F4F406;
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 60px 0 0 0;
+}
+.content p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  text-align: center;
   color: white;
-  font-family: "Bebas";
-  cursor: default;
+  padding: 20px 20px 15px 20px;
+  line-height: 1.5rem;
+}
+
+.container:hover .content {
+  top: 0;
 }
 
 .card-body {

@@ -1,15 +1,46 @@
 .row {
     padding: 3rem 15rem;
+}
 
-    .w-100:hover {
-        cursor: pointer;
-        filter: grayscale(1) blur(2px);
-        transition: .3s ease-in-out;
+.container {
+    width: 220px;
+    height: 220px;
+    position: relative;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        transition: all .5s;
     }
 }
 
-.text-portfolio {
-    color: $color-text;
-    font-family: "Bebas";
-    cursor: default;
+.content {
+    background-color: rgba(0, 0, 0, .8);
+    position: absolute;
+    top: -100%;
+    left: 0;
+    height: 100%;
+    transition: all .5s;
+    cursor: pointer;
+
+    h3 {
+        font-family: $bebas;
+        color: $color-secundary;
+        text-align: center;
+        font-size: 2.5rem;
+        padding: 60px 0 0 0;
+    }
+
+    p {
+        font-family: $montserrat;
+        font-size: 1.2rem;
+        text-align: center;
+        color: $color-text;
+        padding: 20px 20px 15px 20px;
+        line-height: 1.5rem;
+    }
+}
+
+.container:hover .content {
+    top: 0;
 }

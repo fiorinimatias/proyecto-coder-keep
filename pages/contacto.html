@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Keep | Contacto</title>
+    <link rel="icon" type="image/png" href="/images/favicon.png" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
@@ -48,7 +49,52 @@
     </header>
 
     <main>
-        <div></div>
+        <section class="contactanos">
+        <div class="contact_form">
+
+            <div class="formulario">      
+            <h1>contactanos</h1>
+                <h3>Escribinos y en breve nos pondremos en contacto con vos</h3>
+        
+        
+                <form action="submeter-formulario.php" method="post">       
+        
+                    
+                        <p>
+                        <label for="nombre" class="colocar_nombre">Nombre
+                            <span class="obligatorio">*</span>
+                        </label>
+                            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder=" Escribe tu nombre">
+                        </p>
+                        
+                        <p>
+                        <label for="email" class="colocar_email">Email
+                            <span class="obligatorio">*</span>
+                        </label>
+                            <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder=" Escribe tu Email">
+                        </p>
+                        
+                        <p>
+                        <label for="mensaje" class="colocar_mensaje">Mensaje
+                            <span class="obligatorio"></span>
+                        </label>                     
+                                            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                        </p>                    
+                        
+                        <div class="boton">                
+                            <button class="btn" type="submit" name="enviar_formulario">
+                                <p class="btn-enviar">Enviar</p>
+                            </button>
+                        </div>
+
+                        <p class="aviso">
+                          <span class="obligatorio"> * </span>los campos son obligatorios.
+                        </p>          
+                    
+                </form>
+            </div>  
+        </div>
+    </section>
     </main>
 
    

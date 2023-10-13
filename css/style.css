@@ -157,6 +157,7 @@ footer p {
   padding-left: 10%;
   flex-wrap: wrap;
   flex-direction: column;
+  line-height: 1.5rem;
   --bs-accordion-active-bg: #000000;
   --bs-accordion-active-color: #F4F406;
   --bs-accordion-border-radius: 0px;
@@ -271,13 +272,20 @@ footer p {
   cursor: default;
 }
 
-.servicios h1 {
-  color: #F4F406;
-  font-family: "Bebas Neue", sans-serif;
+.card-body {
+  height: 90px;
 }
-.servicios p {
-  color: white;
+.card-body h5 {
+  font-family: "Bebas Neue", sans-serif;
+  color: #F4F406;
+  font-size: 2rem;
+  text-align: center;
+}
+.card-body p {
   font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
   text-align: center;
 }
 

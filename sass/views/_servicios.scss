@@ -1,12 +1,19 @@
-.servicios {
-    h1 {
-        color: $color-secundary;
+.card-body {
+
+    height: 90px;
+    
+    h5 {
         font-family: $bebas;
+        color: $color-secundary;
+        font-size: $font-title;
+        text-align: center;
     }
 
-        p {
-            color: $color-text;
-            font-family: $montserrat;
-            text-align: center;
-        }
+    p {
+        font-family: $montserrat;
+        color: $color-text;
+        font-size: $font-principal;
+        line-height: 1.2rem;
+        text-align: center;
+    }
 }

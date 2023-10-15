@@ -6,7 +6,7 @@
     .contact_form {
         display: flex;
         justify-content: center;
-        width: 50rem;
+        width: 45rem;
         background-color: $color-secundary;
         padding: 2rem;
         font-family: $bebas;
@@ -46,8 +46,9 @@
         p {
             font-family: $bebas;
             font-size: $font-text;
+            cursor: default;
         }
-        
+
         .btn-enviar {
             font-size: 1.5rem;
             margin-bottom: 0;
@@ -70,11 +71,10 @@
 
     h1 {
         font-size: 39px;
-        text-align: center;
         color: $color-principal;
         font-family: $bebas;
-        padding-top: 30px;
-        padding-right: 10%;
+        cursor: default;
+        padding-top: 20px;
         text-align: center;
     }
 
@@ -83,10 +83,12 @@
         padding-left: 10px;
         color: $color-principal;
         text-align: center;
+        cursor: default;
     }
 
     p {
         font-size: 1rem;
+        cursor: default;
         color: $color-principal;
         font-family: $montserrat;
     }

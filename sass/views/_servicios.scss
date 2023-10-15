@@ -1,6 +1,11 @@
 .card-servicios {
     width: 25rem;
     margin-left: 2rem;
+    cursor: pointer;
+
+     &:hover {
+        filter: grayscale(1);
+     }
 }
 
 .card-body {

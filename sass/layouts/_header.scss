@@ -2,7 +2,7 @@ body {
     background-color: $color-principal;
 
     .logo {
-        height: 70px;
+        height: 6rem;
         width: auto;
         cursor: pointer;
         transition: all 0.3s;
@@ -38,7 +38,7 @@ body {
 
 .navbar-toggler {
     background-color: $color-text;
-    font-size: .7rem;
+    font-size: $font-secondary;
 }
 
 .nav-link-active {

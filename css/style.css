@@ -19,15 +19,11 @@ main {
   font-family: "iconos";
   src: url(../fonts/social\ media.ttf);
 }
-@font-face {
-  font-family: "makro";
-  src: url(../fonts/Makro.ttf);
-}
 body {
   background-color: black;
 }
 body .logo {
-  height: 70px;
+  height: 6rem;
   width: auto;
   cursor: pointer;
   transition: all 0.3s;
@@ -58,7 +54,7 @@ body .logo:hover {
 
 .navbar-toggler {
   background-color: white;
-  font-size: 0.7rem;
+  font-size: 0.5rem;
 }
 
 .nav-link-active {
@@ -69,13 +65,13 @@ footer {
   font-family: "Montserrat", sans-serif;
   background-color: #F4F406;
   color: black;
-  height: 30px;
+  height: 2rem;
   display: flex;
   justify-content: center;
   cursor: default;
   font-size: 1.2rem;
   align-items: center;
-  padding-top: 10px;
+  padding-top: 1rem;
   width: 100%;
   position: fixed;
   bottom: 0;
@@ -144,10 +140,10 @@ footer p {
   margin: 2rem 4rem 2rem 4rem;
   font-family: "Bebas Neue", sans-serif;
   text-align: center;
-  -webkit-text-stroke: 0.06rem yellow;
+  -webkit-text-stroke: 0.06rem #F4F406;
   color: transparent;
   cursor: default;
-  padding: 18px;
+  padding: 0.5rem;
 }
 .banner p:hover {
   transform: scale(1.03);
@@ -162,8 +158,8 @@ footer p {
 .card-group .card-home {
   background-color: black;
   width: 25rem;
-  padding: 0.7rem;
-  margin: 3rem;
+  padding: 0.5rem;
+  margin: 3.5rem;
   cursor: pointer;
 }
 .card-group .card-home:hover {
@@ -179,15 +175,14 @@ footer p {
 
 .btn-ver {
   font-family: "Bebas Neue", sans-serif;
-  height: 30px;
-  width: 80px;
+  height: 3.5rem;
+  width: 10rem;
   font-size: 1.2rem;
   background-color: transparent;
   color: #F4F406;
   border: #F4F406;
   border-style: solid;
   cursor: pointer;
-  border-radius: 0;
 }
 .btn-ver.btn-ver:hover {
   background: #F4F406;
@@ -243,7 +238,7 @@ footer p {
 .contactanos input {
   background-color: black;
   width: 40rem;
-  height: 3rem;
+  height: 3.5rem;
   border-color: black;
   color: white;
 }
@@ -262,7 +257,7 @@ footer p {
   justify-content: center;
   align-items: center;
   width: 40rem;
-  height: 3rem;
+  height: 3.5rem;
   font-size: 1.2rem;
   background-color: transparent;
   border-style: solid;
@@ -275,18 +270,17 @@ footer p {
 }
 .contactanos .boton .btn-enviar {
   font-size: 1.5rem;
-  margin-bottom: 0;
+  margin: 0rem;
 }
 .contactanos span {
   color: black;
 }
 .contactanos .aviso {
-  font-size: 13px;
+  font-size: 1.2rem;
   color: black;
-  padding-bottom: 5px;
 }
 .contactanos h1 {
-  font-size: 39px;
+  font-size: 4rem;
   color: black;
   font-family: "Bebas Neue", sans-serif;
   cursor: default;
@@ -294,14 +288,14 @@ footer p {
   text-align: center;
 }
 .contactanos h3 {
-  font-size: 16px;
+  font-size: 1.5rem;
   padding-left: 10px;
   color: black;
   text-align: center;
   cursor: default;
 }
 .contactanos p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   cursor: default;
   color: black;
   font-family: "Montserrat", sans-serif;
@@ -326,7 +320,6 @@ footer p {
   background-color: rgba(0, 0, 0, 0.8);
   position: absolute;
   top: -100%;
-  left: 3;
   height: 94%;
   width: 94%;
   transition: all 1s;
@@ -336,7 +329,7 @@ footer p {
   font-family: "Bebas Neue", sans-serif;
   color: #F4F406;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
   padding: 60px 0 0 0;
 }
 .content p {

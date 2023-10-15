@@ -10,10 +10,10 @@
         margin: 2rem 4rem 2rem 4rem;
         font-family: $bebas;
         text-align: center;
-        -webkit-text-stroke: .06rem yellow;
+        -webkit-text-stroke: .06rem $color-secundary;
         color: transparent;
         cursor: default;
-        padding: 18px;
+        padding: $spacing-small;
     }
 
     p:hover {
@@ -31,8 +31,8 @@
     .card-home {
         background-color: $color-principal;
         width: 25rem;
-        padding: .7rem;
-        margin: 3rem;
+        padding: $spacing-small;
+        margin: $spacing-large;
         cursor: pointer;
 
         &:hover {
@@ -50,15 +50,14 @@
 
 .btn-ver {
     font-family: $bebas;
-    height: 30px;
-    width: 80px;
+    height: $spacing-large;
+    width: 10rem;
     font-size: $font-principal;
     background-color: transparent;
     color: $color-secundary;
     border: $color-secundary;
     border-style: solid;
     cursor: pointer;
-    border-radius: 0;
 
     &.btn-ver:hover {
         background: $color-secundary;

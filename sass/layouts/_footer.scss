@@ -2,13 +2,13 @@ footer {
     font-family: $montserrat;
     background-color: $color-secundary;
     color: $color-principal;
-    height: 30px;
+    height: $spacing-medium;
     display: flex;
     justify-content: center;
     cursor: default;
     font-size: $font-principal;
     align-items: center;
-    padding-top: 10px;
+    padding-top: 1rem;
     width: 100%;
     position: fixed;
     bottom: 0;

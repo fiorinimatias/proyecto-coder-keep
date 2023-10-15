@@ -60,6 +60,10 @@ body .logo:hover {
   font-size: 0.7rem;
 }
 
+.nav-link-active {
+  text-decoration: overline;
+}
+
 footer {
   font-family: "Montserrat", sans-serif;
   background-color: #F4F406;

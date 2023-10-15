@@ -40,3 +40,7 @@ body {
     background-color: $color-text;
     font-size: .7rem;
 }
+
+.nav-link-active { 
+    text-decoration: overline;
+} 

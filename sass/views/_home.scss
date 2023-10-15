@@ -24,18 +24,18 @@
 
 .card {
     background-color: $color-principal;
-    margin: $spacing-medium;
-    padding: $spacing-small;
-    width: 20rem;
+    padding: .7rem;
+    margin: 5rem 12rem 0rem 12rem;
+    cursor: pointer;
 
-    &.card:hover {
-        cursor: pointer;
-        filter: grayscale(1);
-    }
+        &:hover {
+            filter: grayscale(1);
+        }
 }
 
 .boton {
     height: 6rem;
+    margin-top: 1rem;
     margin-bottom: 2rem;
     display: flex;
     justify-content: center;

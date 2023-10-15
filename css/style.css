@@ -149,20 +149,24 @@ footer p {
   transition: 1.5s;
 }
 
-.card {
+.card-group {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.card-group .card-home {
   background-color: black;
+  width: 25rem;
   padding: 0.7rem;
-  margin: 5rem 12rem 0rem 12rem;
+  margin: 3rem;
   cursor: pointer;
 }
-.card:hover {
+.card-group .card-home:hover {
   filter: grayscale(1);
 }
 
 .boton {
   height: 6rem;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -340,8 +344,14 @@ footer p {
   top: 0;
 }
 
+.card-servicios {
+  width: 25rem;
+  margin-left: 2rem;
+}
+
 .card-body {
   height: 90px;
+  background-color: black;
 }
 .card-body h5 {
   font-family: "Bebas Neue", sans-serif;

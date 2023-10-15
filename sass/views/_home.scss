@@ -22,21 +22,27 @@
     }
 }
 
-.card {
-    background-color: $color-principal;
-    padding: .7rem;
-    margin: 5rem 12rem 0rem 12rem;
-    cursor: pointer;
+.card-group {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+
+    .card-home {
+        background-color: $color-principal;
+        width: 25rem;
+        padding: .7rem;
+        margin: 3rem;
+        cursor: pointer;
 
         &:hover {
             filter: grayscale(1);
         }
+    }
 }
 
 .boton {
     height: 6rem;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;

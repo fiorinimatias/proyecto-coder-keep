@@ -1,6 +1,12 @@
+.card-servicios {
+    width: 25rem;
+    margin-left: 2rem;
+}
+
 .card-body {
 
     height: 90px;
+    background-color: $color-principal;
     
     h5 {
         font-family: $bebas;

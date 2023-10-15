@@ -88,6 +88,45 @@ footer p {
   font-size: 100%;
 }
 
+.social {
+  position: fixed;
+  left: 0%;
+  top: 250px;
+  z-index: 2000;
+}
+.social ul {
+  list-style: none;
+  font-size: 2rem;
+  padding-left: 0;
+}
+.social a {
+  display: inline-block;
+  color: white;
+  padding: 3px 5px;
+  text-decoration: none;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+  font-family: "iconos";
+}
+.social a:hover {
+  background: #F4F406;
+  padding: 3px 20px;
+  color: black;
+}
+.social .facebook {
+  background: #3b5998;
+}
+.social .instagram {
+  background: #FD1D1D;
+}
+.social .mail {
+  background: #BB001B;
+}
+.social .whatsapp {
+  background: #075e54;
+}
+
 .banner {
   background-color: black;
   width: 100%;

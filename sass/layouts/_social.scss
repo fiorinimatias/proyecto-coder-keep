@@ -1,0 +1,45 @@
+.social {
+    position: fixed;
+    left: 0%;
+    top: 250px;
+    z-index: 2000;
+
+    ul {
+        list-style: none;
+        font-size: $font-title;
+        padding-left: 0;
+    }
+
+    a {
+        display: inline-block;
+        color: $color-text;
+        padding: 3px 5px;
+        text-decoration: none;
+        -webkit-transition: all 500ms ease;
+        -o-transition: all 500ms ease;
+        transition: all 500ms ease;
+        font-family: "iconos";
+    }
+
+    & a:hover {
+        background: $color-secundary;
+        padding: 3px 20px;
+        color: $color-principal;
+    }
+
+    .facebook {
+        background: #3b5998;
+    }
+
+    .instagram {
+        background: #FD1D1D;
+    }
+
+    .mail {
+        background: #BB001B;
+    }
+
+    .whatsapp {
+        background: #075e54;
+    }
+}

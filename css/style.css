@@ -168,7 +168,7 @@ footer p {
   align-items: center;
 }
 
-.btn {
+.btn-ver {
   font-family: "Bebas Neue", sans-serif;
   height: 30px;
   width: 80px;
@@ -180,7 +180,7 @@ footer p {
   cursor: pointer;
   border-radius: 0;
 }
-.btn.btn:hover {
+.btn-ver.btn-ver:hover {
   background: #F4F406;
   color: black;
   border: #F4F406;
@@ -254,7 +254,6 @@ footer p {
   align-items: center;
   width: 40rem;
   height: 3rem;
-  margin-bottom: 10px;
   font-size: 1.2rem;
   background-color: transparent;
   border-style: solid;
@@ -262,9 +261,11 @@ footer p {
 }
 .contactanos .boton p {
   font-family: "Bebas Neue", sans-serif;
+  font-size: 1.5rem;
 }
 .contactanos .boton .btn-enviar {
   font-size: 1.5rem;
+  margin-bottom: 0;
 }
 .contactanos span {
   color: black;

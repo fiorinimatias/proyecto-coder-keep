@@ -42,7 +42,7 @@
     align-items: center;
 }
 
-.btn {
+.btn-ver {
     font-family: $bebas;
     height: 30px;
     width: 80px;
@@ -54,7 +54,7 @@
     cursor: pointer;
     border-radius: 0;
 
-    &.btn:hover {
+    &.btn-ver:hover {
         background: $color-secundary;
         color: $color-principal;
         border: $color-secundary;

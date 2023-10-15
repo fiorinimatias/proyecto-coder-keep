@@ -38,7 +38,6 @@
         align-items: center;
         width: 40rem;
         height: 3rem;
-        margin-bottom: 10px;
         font-size: $font-principal;
         background-color: transparent;
         border-style: solid;
@@ -46,11 +45,15 @@
 
         p {
             font-family: $bebas;
+            font-size: $font-text;
         }
         
         .btn-enviar {
             font-size: 1.5rem;
+            margin-bottom: 0;
         }
+
+
 
     }
 

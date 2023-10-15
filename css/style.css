@@ -10,7 +10,7 @@ html {
 }
 
 main {
-  background-image: url(/images/fondo.png);
+  background-image: url(../images/fondo.png);
   background-repeat: repeat;
 }
 

@@ -30,6 +30,12 @@ body .logo {
   display: flex;
   align-items: center;
 }
+@media (max-width: 480px) {
+  body .logo {
+    transition: all 1s;
+    height: 2rem;
+  }
+}
 body .logo:hover {
   transform: scale(0.9);
 }
@@ -79,6 +85,11 @@ footer {
 footer p {
   font-size: 100%;
 }
+@media (max-width: 1024px) {
+  footer {
+    display: none;
+  }
+}
 
 .footer-pages {
   width: 100%;
@@ -87,6 +98,43 @@ footer p {
 }
 .footer-pages p {
   font-size: 100%;
+}
+
+.footer-mobil {
+  background-color: #F4F406;
+  color: black;
+  height: 7rem;
+  display: flex;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+.footer-mobil .footer-social {
+  display: flex;
+}
+.footer-mobil p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+}
+.footer-mobil li {
+  list-style: none;
+  padding: 0.5rem;
+}
+.footer-mobil a {
+  font-family: "iconos";
+  font-size: 2rem;
+  text-decoration: none;
+  list-style-type: disc;
+  color: black;
+  padding: 0.5rem;
+}
+@media (min-width: 1024px) {
+  .footer-mobil {
+    display: none;
+  }
 }
 
 .social {
@@ -127,6 +175,11 @@ footer p {
 .social .whatsapp {
   background: #075e54;
 }
+@media (max-width: 1024px) {
+  .social {
+    display: none;
+  }
+}
 
 .banner {
   background-color: black;
@@ -152,7 +205,7 @@ footer p {
 
 .card-group {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: center;
 }
 .card-group .card-home {
@@ -171,6 +224,7 @@ footer p {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 5rem;
 }
 
 .btn-ver {
@@ -302,14 +356,15 @@ footer p {
 }
 
 .row {
-  padding: 3rem 15rem;
+  padding: 2rem;
 }
 
 .container {
-  width: 220px;
-  height: 220px;
+  width: 23rem;
+  height: 23rem;
   position: relative;
   overflow: hidden;
+  padding: 2rem;
 }
 .container img {
   width: 100%;
@@ -320,8 +375,8 @@ footer p {
   background-color: rgba(0, 0, 0, 0.8);
   position: absolute;
   top: -100%;
-  height: 94%;
-  width: 94%;
+  height: 92%;
+  width: 83%;
   transition: all 1s;
   cursor: pointer;
 }
@@ -346,9 +401,9 @@ footer p {
 }
 
 .card-servicios {
-  width: 25rem;
-  margin-left: 2rem;
+  width: 20rem;
   cursor: pointer;
+  align-items: center;
 }
 .card-servicios:hover {
   filter: grayscale(1);

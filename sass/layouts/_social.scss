@@ -42,4 +42,8 @@
     .whatsapp {
         background: #075e54;
     }
+
+    @media (max-width: $desktop) {
+        display: none;
+    }
 }

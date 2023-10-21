@@ -16,6 +16,10 @@ footer {
     p {
         font-size: 100%;
     }
+
+    @media (max-width: $desktop) {
+        display: none;
+    }
 }
 
 .footer-pages {
@@ -26,4 +30,44 @@ footer {
     p {
         font-size: 100%;
     }
+}
+
+.footer-mobil {
+    background-color: $color-secundary;
+    color: $color-principal;
+    height: 7rem;
+    display: flex;
+    width: 100%;
+    position: fixed;
+    bottom: 0;   
+    flex-wrap: nowrap;
+    flex-direction: column;
+
+        .footer-social {
+            display: flex;
+        }
+
+        p {
+            font-family: $montserrat;
+            font-size: 1rem;
+            text-align: center;
+        }
+
+        li {
+            list-style: none;
+            padding: .5rem;
+        }
+
+        a {
+            font-family: "iconos";
+            font-size: 2rem;
+            text-decoration: none;
+            list-style-type: disc;
+            color: $color-principal;
+            padding: .5rem;
+        }
+
+        @media (min-width: $desktop) {
+            display: none;
+        }
 }

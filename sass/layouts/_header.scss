@@ -8,6 +8,11 @@ body {
         transition: all 0.3s;
         display: flex;
         align-items: center;
+
+        @media (max-width: $smartphone) {
+            transition: all 1s;
+            height: 2rem;
+        }
     }
 
     & .logo:hover {

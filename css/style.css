@@ -12,7 +12,7 @@ html {
 main {
   background-image: url(../images/fondo.png);
   height: 100vh;
-  background-repeat: space;
+  background-repeat: repeat;
 }
 
 @font-face {
@@ -246,6 +246,10 @@ footer p {
   cursor: pointer;
 }
 
+.main {
+  height: 100%;
+}
+
 .accordion {
   width: 90%;
   padding-top: 3.5rem;
@@ -316,6 +320,7 @@ footer p {
   background-color: transparent;
   border-style: solid;
   cursor: pointer;
+  margin: 0;
 }
 .contactanos .boton p {
   font-family: "Bebas Neue", sans-serif;

@@ -202,6 +202,34 @@ footer p {
   transform: scale(1.03);
   transition: 1.5s;
 }
+@media (max-width: 1024px) {
+  .banner {
+    display: none;
+  }
+}
+
+.banner-movil {
+  background-color: black;
+  width: 100%;
+  font-size: 6vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+.banner-movil p {
+  margin: 2rem 4rem 2rem 4rem;
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+  -webkit-text-stroke: 0.09rem #F4F406;
+  color: transparent;
+  cursor: default;
+  padding: 0.5rem;
+}
+@media (min-width: 1024px) {
+  .banner-movil {
+    display: none;
+  }
+}
 
 .card-group {
   display: flex;

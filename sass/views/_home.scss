@@ -20,6 +20,33 @@
         transform: scale(1.03);
         transition: 1.5s;
     }
+
+    @media (max-width: $desktop) {
+        display: none;
+    }
+}
+
+.banner-movil {
+    background-color: black;
+    width: 100%;
+    font-size: 6vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+
+    p {
+        margin: 2rem 4rem 2rem 4rem;
+        font-family: $bebas;
+        text-align: center;
+        -webkit-text-stroke: .09rem $color-secundary;
+        color: transparent;
+        cursor: default;
+        padding: $spacing-small;
+    }
+
+    @media (min-width: $desktop) {
+        display: none;
+    }
 }
 
 .card-group {

@@ -35,7 +35,7 @@ footer {
 .footer-mobil {
     background-color: $color-secundary;
     color: $color-principal;
-    height: 6rem;
+    height: 7rem;
     display: flex;
     width: 100%;
     position: fixed;
@@ -51,20 +51,20 @@ footer {
             font-family: $montserrat;
             font-size: 1rem;
             text-align: center;
+            padding-bottom: 1rem;
         }
 
         li {
             list-style: none;
             padding: .5rem;
+            padding-top: 1rem;
         }
 
         a {
             font-family: "iconos";
             font-size: 2rem;
             text-decoration: none;
-            list-style-type: disc;
             color: $color-principal;
-            padding: .5rem;
         }
 
         @media (min-width: $desktop) {

@@ -103,7 +103,7 @@ footer p {
 .footer-mobil {
   background-color: #F4F406;
   color: black;
-  height: 6rem;
+  height: 7rem;
   display: flex;
   width: 100%;
   position: fixed;
@@ -118,18 +118,18 @@ footer p {
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   text-align: center;
+  padding-bottom: 1rem;
 }
 .footer-mobil li {
   list-style: none;
   padding: 0.5rem;
+  padding-top: 1rem;
 }
 .footer-mobil a {
   font-family: "iconos";
   font-size: 2rem;
   text-decoration: none;
-  list-style-type: disc;
   color: black;
-  padding: 0.5rem;
 }
 @media (min-width: 1024px) {
   .footer-mobil {

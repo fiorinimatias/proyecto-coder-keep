@@ -3,16 +3,16 @@
     cursor: pointer;
     align-items: center;
 
-     &:hover {
+    &:hover {
         filter: grayscale(1);
-     }
+    }
 }
 
 .card-body {
 
     height: 90px;
     background-color: $color-principal;
-    
+
     h5 {
         font-family: $bebas;
         color: $color-secundary;

@@ -4,13 +4,15 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="Diseño Grafico, Creatividad, Diseño de Logotipos, Logotipos, Diseño, Grafico, Identidad de Marca, Marca, Tipografia, Composicion, Color, Vector, Photoshop, Illustrator, 
+    <meta name="keywords"
+        content="Diseño Grafico, Creatividad, Diseño de Logotipos, Logotipos, Diseño, Grafico, Identidad de Marca, Marca, Tipografia, Composicion, Color, Vector, Photoshop, Illustrator, 
     Diseño de carteleria, Branding, Folleteria, Packaging, Diseño Web, Publicidad, Impresion, Artes Visuales, Diseño Editorial, contacto, formulario, contactanos, hablemos">
-    <meta name="description" content="Contáctanos para resolver tus dudas, brindarte asistencia o colaborar en proyectos. Nuestro equipo está listo para atenderte. Completa el formulario de contacto.">
+    <meta name="description"
+        content="Contáctanos para resolver tus dudas, brindarte asistencia o colaborar en proyectos. Nuestro equipo está listo para atenderte. Completa el formulario de contacto.">
     <title>KeepLogo | Contacto</title>
     <link rel="icon" type="image/png" href="/images/favicon.png" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
@@ -21,10 +23,11 @@
             <div class="container-fluid">
                 <div class="logo-inicio">
                     <a href="../index.html">
-                    <img class="logo" src="../images/Logo.png" alt="Haz clic aquí para volver a la página de inicio">
+                        <img class="logo" src="../images/Logo.png"
+                            alt="Haz clic aquí para volver a la página de inicio">
                     </a>
                 </div>
-                
+
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,67 +56,61 @@
 
     <main> <br>
         <section class="contactanos">
-        <div class="contact_form">
+            <div class="contact_form">
+                <div class="formulario">
+                    <h1>contactanos</h1>
+                    <h3>Escribinos y en breve nos pondremos en contacto con vos</h3>
+                    <form action="submeter-formulario.php" method="post">
+                        <p>
+                            <label for="nombre" class="colocar_nombre">Nombre
+                                <span class="obligatorio">*</span>
+                            </label>
+                            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+                                placeholder=" Escribe tu nombre">
+                        </p>
 
-            <div class="formulario">      
-            <h1>contactanos</h1>
-                <h3>Escribinos y en breve nos pondremos en contacto con vos</h3>
-        
-        
-                <form action="submeter-formulario.php" method="post">       
-        
-                    
                         <p>
-                        <label for="nombre" class="colocar_nombre">Nombre
-                            <span class="obligatorio">*</span>
-                        </label>
-                            <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder=" Escribe tu nombre">
+                            <label for="email" class="colocar_email">Email
+                                <span class="obligatorio">*</span>
+                            </label>
+                            <input type="email" name="introducir_email" id="email" required="obligatorio"
+                                placeholder=" Escribe tu Email">
                         </p>
-                        
+
                         <p>
-                        <label for="email" class="colocar_email">Email
-                            <span class="obligatorio">*</span>
-                        </label>
-                            <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder=" Escribe tu Email">
+                            <label for="mensaje" class="colocar_mensaje">Mensaje
+                                <span class="obligatorio"></span>
+                            </label>
+                            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje"
+                                required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea>
                         </p>
-                        
-                        <p>
-                        <label for="mensaje" class="colocar_mensaje">Mensaje
-                            <span class="obligatorio"></span>
-                        </label>                     
-                                            <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
-                                        </p>                    
-                        
-                        <div class="boton">                
+
+                        <div class="boton">
                             <button class="btn" type="submit" name="enviar_formulario">
                                 <p class="btn-enviar">Enviar</p>
                             </button>
                         </div>
 
                         <p class="aviso">
-                          <span class="obligatorio"> * </span>los campos son obligatorios.
-                        </p>          
-                    
-                </form>
-            </div>  
-        </div>
-    </section>
+                            <span class="obligatorio"> * </span>los campos son obligatorios.
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
     </main>
 
     <div class="social">
-		<ul>
-			<li><a href="http://www.facebook.com/" target="_blank" class="facebook">f</a></li>
-			<li><a href="http://www.instagram.com/keep.logo" target="_blank" class="instagram">c</a></li>
-			<li><a href="mailto:fiorimatias@gmail.com" target="_blank" class="mail">3</a></li>
-			<li><a href="https://wa.me/543515943584" target="_blank" class="whatsapp">v</a></li>
-		</ul>
-	</div>
-
-   
-
+        <ul>
+            <li><a href="http://www.facebook.com/" target="_blank" class="facebook">f</a></li>
+            <li><a href="http://www.instagram.com/keep.logo" target="_blank" class="instagram">c</a></li>
+            <li><a href="mailto:fiorimatias@gmail.com" target="_blank" class="mail">3</a></li>
+            <li><a href="https://wa.me/543515943584" target="_blank" class="whatsapp">v</a></li>
+        </ul>
+    </div>
 
     <footer class="footer-pages">
-        <p>KeepLogo | Estudio de Diseño. Since ©2023. Todos los derechos reservados.</p>
+        <p><strong>KeepLogo| Estudio de Diseño.</strong> Since ©2023. Todos los derechos reservados.</p>
     </footer>
 
     <footer class="footer-mobil">
@@ -123,9 +120,8 @@
             <li><a href="mailto:fiorimatias@gmail.com" target="_blank" class="mail">3</a></li>
             <li><a href="https://wa.me/543515943584" target="_blank" class="whatsapp">v</a></li>
         </div>
-        <p>KeepLogo | Estudio de Diseño <br> Since ©2023. Todos los derechos reservados.</p>
+        <p><strong>KeepLogo| Estudio de Diseño.</strong><br>Since ©2023. Todos los derechos reservados.</p>
     </footer>
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"

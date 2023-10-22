@@ -39,35 +39,35 @@ footer {
     display: flex;
     width: 100%;
     position: fixed;
-    bottom: 0;   
+    bottom: 0;
     flex-wrap: nowrap;
     flex-direction: column;
 
-        .footer-social {
-            display: flex;
-        }
+    .footer-social {
+        display: flex;
+    }
 
-        p {
-            font-family: $montserrat;
-            font-size: .6rem;
-            text-align: center;
-            padding-bottom: 1rem;
-        }
+    p {
+        font-family: $montserrat;
+        font-size: .6rem;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
 
-        li {
-            list-style: none;
-            padding: .5rem;
-            padding-top: 1rem;
-        }
+    li {
+        list-style: none;
+        padding: .5rem;
+        padding-top: 1rem;
+    }
 
-        a {
-            font-family: "iconos";
-            font-size: 1.5rem;
-            text-decoration: none;
-            color: $color-principal;
-        }
+    a {
+        font-family: "iconos";
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: $color-principal;
+    }
 
-        @media (min-width: $desktop) {
-            display: none;
-        }
+    @media (min-width: $desktop) {
+        display: none;
+    }
 }

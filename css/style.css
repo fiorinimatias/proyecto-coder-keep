@@ -175,6 +175,18 @@ footer p {
   }
 }
 
+@media (max-width: 1024px) {
+  .carousel {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .carousel-movil {
+    display: none;
+  }
+}
+
 .banner {
   background-color: black;
   width: 100%;
@@ -205,7 +217,7 @@ footer p {
 .banner-movil {
   background-color: black;
   width: 100%;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   display: flex;
   justify-content: center;
   margin-top: 3%;

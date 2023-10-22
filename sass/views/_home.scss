@@ -29,19 +29,17 @@
 .banner-movil {
     background-color: black;
     width: 100%;
-    font-size: 6vw;
+    font-size: 1.8rem;
     display: flex;
     justify-content: center;
     margin-top: 3%;
 
     p {
-        margin: 2rem 4rem 2rem 4rem;
+        margin: 1rem 4rem 1rem 4rem;
         font-family: $bebas;
         text-align: center;
-        -webkit-text-stroke: .09rem $color-secundary;
-        color: transparent;
+        color: $color-secundary;
         cursor: default;
-        padding: $spacing-small;
     }
 
     @media (min-width: $desktop) {

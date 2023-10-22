@@ -30,12 +30,6 @@ body .logo {
   display: flex;
   align-items: center;
 }
-@media (max-width: 480px) {
-  body .logo {
-    transition: all 1s;
-    height: 2rem;
-  }
-}
 body .logo:hover {
   transform: scale(0.9);
 }
@@ -103,7 +97,7 @@ footer p {
 .footer-mobil {
   background-color: #F4F406;
   color: black;
-  height: 7rem;
+  height: 5.5rem;
   display: flex;
   width: 100%;
   position: fixed;
@@ -116,7 +110,7 @@ footer p {
 }
 .footer-mobil p {
   font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
+  font-size: 0.6rem;
   text-align: center;
   padding-bottom: 1rem;
 }
@@ -127,7 +121,7 @@ footer p {
 }
 .footer-mobil a {
   font-family: "iconos";
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-decoration: none;
   color: black;
 }
@@ -211,19 +205,17 @@ footer p {
 .banner-movil {
   background-color: black;
   width: 100%;
-  font-size: 6vw;
+  font-size: 1.8rem;
   display: flex;
   justify-content: center;
   margin-top: 3%;
 }
 .banner-movil p {
-  margin: 2rem 4rem 2rem 4rem;
+  margin: 1rem 4rem 1rem 4rem;
   font-family: "Bebas Neue", sans-serif;
   text-align: center;
-  -webkit-text-stroke: 0.09rem #F4F406;
-  color: transparent;
+  color: #F4F406;
   cursor: default;
-  padding: 0.5rem;
 }
 @media (min-width: 1024px) {
   .banner-movil {

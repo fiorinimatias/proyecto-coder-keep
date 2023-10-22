@@ -9,7 +9,11 @@ html {
 }
 
 main {
-    background-image: url(../images/fondo.png);
-    height: 100vh;
-    background-repeat: repeat;
+    background-image: url(/images/fondo.png);
+    height: 100%;
+}
+
+.main-nosotros {
+    background-image: url(/images/fondo.png);
+    height: 100vh;    
 }

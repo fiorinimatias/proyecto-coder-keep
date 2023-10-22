@@ -1,4 +1,5 @@
 .carousel {
+    padding-top: 10rem;
     @media (max-width: $desktop) {
         display: none;
     }
@@ -83,7 +84,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
 
 .btn-ver {
@@ -104,8 +105,4 @@
         border-style: solid;
         cursor: pointer;
     }
-}
-
-.main {
-    height: 100%;
 }

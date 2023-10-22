@@ -10,55 +10,42 @@ html {
 }
 
 main {
-  background-image: url(../images/fondo.png);
+  background-image: url(/images/fondo.png);
+  height: 100%;
+}
+
+.main-nosotros {
+  background-image: url(/images/fondo.png);
   height: 100vh;
-  background-repeat: repeat;
 }
 
 @font-face {
   font-family: "iconos";
   src: url(../fonts/social\ media.ttf);
 }
-body {
-  background-color: black;
-}
-body .logo {
-  height: 6rem;
-  width: auto;
-  cursor: pointer;
-  transition: all 0.3s;
-  display: flex;
-  align-items: center;
-}
-body .logo:hover {
-  transform: scale(0.9);
-}
-
-.navbar-collapse {
-  justify-content: flex-end;
-}
-
-.navbar-nav {
-  text-align: center;
-}
-.navbar-nav a {
-  color: white;
+.nav-link {
   font-family: "Bebas Neue", sans-serif;
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: #F4F406;
+  margin-right: 10px;
+  text-transform: uppercase;
   font-size: 2rem;
 }
-.navbar-nav a:hover {
-  transform: scale(1.2);
-  text-decoration: overline;
-  color: #F4F406;
+
+.navbar-toggler-icon {
+  background-image: url(../images/menu-burger.png);
 }
 
-.navbar-toggler {
-  background-color: white;
-  font-size: 0.5rem;
+.navbar {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
 }
 
-.nav-link-active {
-  text-decoration: overline;
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
 }
 
 footer {
@@ -175,6 +162,9 @@ footer p {
   }
 }
 
+.carousel {
+  padding-top: 10rem;
+}
 @media (max-width: 1024px) {
   .carousel {
     display: none;
@@ -217,13 +207,13 @@ footer p {
 .banner-movil {
   background-color: black;
   width: 100%;
-  font-size: 1.6rem;
+  font-size: 1rem;
   display: flex;
   justify-content: center;
   margin-top: 3%;
 }
 .banner-movil p {
-  margin: 1rem 4rem 1rem 4rem;
+  margin: 1rem 2rem 1rem 2rem;
   font-family: "Bebas Neue", sans-serif;
   text-align: center;
   color: #F4F406;
@@ -256,7 +246,7 @@ footer p {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 .btn-ver {
@@ -278,13 +268,9 @@ footer p {
   cursor: pointer;
 }
 
-.main {
-  height: 100%;
-}
-
 .accordion {
   width: 90%;
-  padding-top: 3.5rem;
+  padding-top: 10rem;
   padding-bottom: 8rem;
   padding-left: 10%;
   flex-wrap: wrap;
@@ -316,6 +302,7 @@ footer p {
   display: flex;
   justify-content: center;
   margin: 1rem 0rem 1rem 0rem;
+  padding-top: 10rem;
 }
 .contactanos .contact_form {
   display: flex;
@@ -394,6 +381,7 @@ footer p {
 
 .row {
   padding: 2rem;
+  padding-top: 10rem;
 }
 
 .container {
@@ -401,7 +389,7 @@ footer p {
   height: 23rem;
   position: relative;
   overflow: hidden;
-  padding: 2rem;
+  padding: 1rem;
 }
 .container img {
   width: 100%;
@@ -412,8 +400,8 @@ footer p {
   background-color: rgba(0, 0, 0, 0.8);
   position: absolute;
   top: -100%;
-  height: 92%;
-  width: 83%;
+  height: 96%;
+  width: 93%;
   transition: all 1s;
   cursor: pointer;
 }

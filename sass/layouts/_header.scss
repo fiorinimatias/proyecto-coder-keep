@@ -11,6 +11,8 @@
         &:hover {
             color: white;
             text-decoration: overline;
+            transform: scale(1.2);
+            transition: .7s;
         }
 
         &:active { 
@@ -34,5 +36,12 @@
 .navbar-expand-lg .navbar-collapse {
     justify-content: flex-end;
     background-image: url(/images/fondo.png);
+}
+
+.navbar-brand {
+    &:hover { 
+    transform: scale(.9);
+    transition: 1s;
+    }
 }
 

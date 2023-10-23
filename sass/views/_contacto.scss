@@ -26,6 +26,7 @@
         width: 40rem;
         height: 10rem;
         color: $color-text;
+        resize: none;
     }
 
     label {
@@ -51,9 +52,14 @@
             cursor: default;
         }
 
+        .btn {
+            width: 40rem;
+        }
+
         .btn-enviar {
             font-size: $font-text;
             margin: 0rem;
+            cursor: pointer;
         }
     }
 

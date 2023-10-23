@@ -12,6 +12,7 @@
 
     height: 90px;
     background-color: $color-principal;
+    cursor: default;
 
     h5 {
         font-family: $bebas;
@@ -27,4 +28,8 @@
         line-height: 1.2rem;
         text-align: center;
     }
+}
+
+.w-100 {
+    margin-bottom: 0 !important;
 }

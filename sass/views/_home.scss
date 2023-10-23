@@ -1,11 +1,13 @@
 .carousel {
-    padding-top: 10rem;
+    padding-top: 8rem;
     @media (max-width: $desktop) {
         display: none;
     }
 }
 
 .carousel-movil {
+    padding-top: 8rem;
+
     @media (min-width: $desktop) {
         display: none;
     }

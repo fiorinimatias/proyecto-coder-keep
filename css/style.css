@@ -169,7 +169,7 @@ footer p {
 }
 
 .carousel {
-  padding-top: 10rem;
+  padding-top: 8rem;
 }
 @media (max-width: 1024px) {
   .carousel {
@@ -177,6 +177,9 @@ footer p {
   }
 }
 
+.carousel-movil {
+  padding-top: 8rem;
+}
 @media (min-width: 1024px) {
   .carousel-movil {
     display: none;

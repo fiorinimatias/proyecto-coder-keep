@@ -9,12 +9,7 @@ html {
   font-size: 62.5%;
 }
 
-main {
-  background-image: url(/images/fondo.png);
-  height: 100%;
-}
-
-.main-nosotros {
+body {
   background-image: url(/images/fondo.png);
   height: 100vh;
 }
@@ -33,6 +28,14 @@ main {
   text-transform: uppercase;
   font-size: 2rem;
 }
+.nav-link:hover {
+  color: white;
+  text-decoration: overline;
+}
+.nav-link:active {
+  color: white;
+  text-decoration: overline;
+}
 
 .navbar-toggler-icon {
   background-image: url(../images/menu-burger.png);
@@ -42,10 +45,13 @@ main {
   position: fixed;
   z-index: 1;
   width: 100%;
+  text-align: center;
+  background-image: url(/images/fondo.png);
 }
 
 .navbar-expand-lg .navbar-collapse {
   justify-content: flex-end;
+  background-image: url(/images/fondo.png);
 }
 
 footer {
@@ -266,6 +272,14 @@ footer p {
   border: #F4F406;
   border-style: solid;
   cursor: pointer;
+}
+
+.carousel-control-prev {
+  display: none;
+}
+
+.carousel-control-next {
+  display: none;
 }
 
 .accordion {

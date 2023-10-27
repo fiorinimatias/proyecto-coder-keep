@@ -1,98 +1,59 @@
-.contactanos {
+.contact-image {
+    text-align: center;
+
+        img {
+            border-radius: 6rem;
+            width: 9%;
+            margin-top: -4%;
+            margin-bottom: 0;
+        }
+
+        &:hover {
+            transform: scale(.85);
+            transition: 1s;
+        }
+}
+
+.contact-form  {
+    background: $color-secundary;
+    width: 60rem;
+    height: 43rem;
+
+    form {
+        padding: 10%;
+    }
+
+    h3 { 
+        font-family: $bebas;
+        font-size: 3rem;
+        margin-bottom: 2rem;
+        margin-top: -2rem;
+        text-align: center;
+        color: $color-principal;
+    }
+}
+
+.btnContact {
+    font-family: $bebas;
+    margin-left: 8.9rem;
+    font-size: 1.3rem;
+    width: 50%;
+    border: none;
+    border-radius: 0rem;
+    padding: 1.5%;
+    background: $color-principal;
+    color: $color-secundary;
+    cursor: pointer;
+}
+
+.form-group {
+    &::placeholder { 
+        font-size: .7rem;
+    }
+}
+
+.contacto {
+    padding-top: 12rem;
     display: flex;
     justify-content: center;
-    margin: 1rem 0rem 1rem 0rem;
-    padding-top: 10rem;
-
-    .contact_form {
-        display: flex;
-        justify-content: center;
-        width: 45rem;
-        background-color: $color-secundary;
-        padding: $spacing-medium;
-        font-family: $bebas;
-    }
-
-    input {
-        background-color: $color-principal;
-        width: 40rem;
-        height: $spacing-large;
-        border-color: $color-principal;
-        color: $color-text;
-    }
-
-    textarea {
-        background-color: $color-principal;
-        width: 40rem;
-        height: 10rem;
-        color: $color-text;
-        resize: none;
-    }
-
-    label {
-        display: block;
-        float: center;
-    }
-
-    .boton {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 40rem;
-        height: $spacing-large;
-        font-size: $font-principal;
-        background-color: transparent;
-        border-style: solid;
-        cursor: pointer;
-        margin: 0;
-
-        p {
-            font-family: $bebas;
-            font-size: $font-text;
-            cursor: default;
-        }
-
-        .btn {
-            width: 40rem;
-        }
-
-        .btn-enviar {
-            font-size: $font-text;
-            margin: 0rem;
-            cursor: pointer;
-        }
-    }
-
-    span {
-        color: $color-principal;
-    }
-
-    .aviso {
-        font-size: $font-principal;
-        color: $color-principal;
-    }
-
-    h1 {
-        font-size: 4rem;
-        color: $color-principal;
-        font-family: $bebas;
-        cursor: default;
-        padding-top: 20px;
-        text-align: center;
-    }
-
-    h3 {
-        font-size: $font-text;
-        padding-left: 10px;
-        color: $color-principal;
-        text-align: center;
-        cursor: default;
-    }
-
-    p {
-        font-size: $font-principal;
-        cursor: default;
-        color: $color-principal;
-        font-family: $montserrat;
-    }
 }

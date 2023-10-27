@@ -14,6 +14,10 @@ body {
   height: 100vh;
 }
 
+.footer-movil {
+  width: 100vh;
+}
+
 @font-face {
   font-family: "iconos";
   src: url(../fonts/social\ media.ttf);
@@ -322,90 +326,58 @@ footer p {
   color: white;
 }
 
-.contactanos {
-  display: flex;
-  justify-content: center;
-  margin: 1rem 0rem 1rem 0rem;
-  padding-top: 10rem;
-}
-.contactanos .contact_form {
-  display: flex;
-  justify-content: center;
-  width: 45rem;
-  background-color: #F4F406;
-  padding: 2rem;
-  font-family: "Bebas Neue", sans-serif;
-}
-.contactanos input {
-  background-color: black;
-  width: 40rem;
-  height: 3.5rem;
-  border-color: black;
-  color: white;
-}
-.contactanos textarea {
-  background-color: black;
-  width: 40rem;
-  height: 10rem;
-  color: white;
-  resize: none;
-}
-.contactanos label {
-  display: block;
-  float: center;
-}
-.contactanos .boton {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40rem;
-  height: 3.5rem;
-  font-size: 1.2rem;
-  background-color: transparent;
-  border-style: solid;
-  cursor: pointer;
-  margin: 0;
-}
-.contactanos .boton p {
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 1.5rem;
-  cursor: default;
-}
-.contactanos .boton .btn {
-  width: 40rem;
-}
-.contactanos .boton .btn-enviar {
-  font-size: 1.5rem;
-  margin: 0rem;
-  cursor: pointer;
-}
-.contactanos span {
-  color: black;
-}
-.contactanos .aviso {
-  font-size: 1.2rem;
-  color: black;
-}
-.contactanos h1 {
-  font-size: 4rem;
-  color: black;
-  font-family: "Bebas Neue", sans-serif;
-  cursor: default;
-  padding-top: 20px;
+.contact-image {
   text-align: center;
 }
-.contactanos h3 {
-  font-size: 1.5rem;
-  padding-left: 10px;
-  color: black;
-  text-align: center;
-  cursor: default;
+.contact-image img {
+  border-radius: 6rem;
+  width: 9%;
+  margin-top: -4%;
+  margin-bottom: 0;
 }
-.contactanos p {
-  font-size: 1.2rem;
-  cursor: default;
+.contact-image:hover {
+  transform: scale(0.85);
+  transition: 1s;
+}
+
+.contact-form {
+  background: #F4F406;
+  width: 60rem;
+  height: 43rem;
+}
+.contact-form form {
+  padding: 10%;
+}
+.contact-form h3 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  margin-top: -2rem;
+  text-align: center;
   color: black;
-  font-family: "Montserrat", sans-serif;
+}
+
+.btnContact {
+  font-family: "Bebas Neue", sans-serif;
+  margin-left: 8.9rem;
+  font-size: 1.3rem;
+  width: 50%;
+  border: none;
+  border-radius: 0rem;
+  padding: 1.5%;
+  background: black;
+  color: #F4F406;
+  cursor: pointer;
+}
+
+.form-group::placeholder {
+  font-size: 0.7rem;
+}
+
+.contacto {
+  padding-top: 12rem;
+  display: flex;
+  justify-content: center;
 }
 
 .row {

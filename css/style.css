@@ -425,6 +425,10 @@ footer p {
   top: 0;
 }
 
+.portfolio {
+  overflow-x: hidden;
+}
+
 .card-servicios {
   width: 20rem;
   cursor: pointer;
@@ -455,6 +459,10 @@ footer p {
 
 .w-100 {
   margin-bottom: 0 !important;
+}
+
+.servicios {
+  overflow-x: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */

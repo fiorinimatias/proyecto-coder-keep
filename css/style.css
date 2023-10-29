@@ -54,6 +54,7 @@ body {
   width: 100%;
   text-align: center;
   background-image: url(/images/fondo.png);
+  box-shadow: 0px 5px 25px 5px black;
 }
 
 .navbar-expand-lg .navbar-collapse {
@@ -379,6 +380,10 @@ footer p {
   padding-top: 12rem;
   display: flex;
   justify-content: center;
+}
+
+.form-control {
+  resize: none;
 }
 
 .row {
